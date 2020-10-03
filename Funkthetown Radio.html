@@ -1,0 +1,113 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Funkthetown Radio</title>
+
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="2.ico" />
+
+
+    <link rel="stylesheet" href="css/style-radio.css">
+    <link rel="stylesheet" href="css/slicknav.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+
+    <style type="text/css">
+        @media screen and (max-width: 600px) {
+
+
+            body {
+                background-size: 900%;
+            }
+        }
+
+        @media screen and (max-width: 800px) and (min-width: 600px) {
+
+            body {
+                background-size: 400%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <iframe src="https://www.radioking.com/widgets/player/player.php?id=140707&c=%235a4a42&c2=%23FFFFFF&ii=&p=0&pp=1&i=1&eq=1&po=1&t=1&f=h&v=2&s=1&li=1&h=145&l=470&a=1&plc=0" name="idFrame" id="idFrame" style="border-radius: 5px; width:470px;height:145px; min-width: 470px;" frameBorder="0"></iframe> -->
+
+    <div class="container">
+
+        <div class="menu-top">
+            <ul id="menu">
+                <li><a class="scroll" href="https://funkthetown.net/Funkthetown Events.html" target="_blank">events</a>
+                </li>
+                <li><a class="scroll" href="#music">music</a></li>
+                <li><a class="scroll" href="https://funkthetown.net/Funkthetown Clothes.html"
+                        target="_blank">clothes</a></li>
+                <li><a class="scroll" href="https://discord.gg/qdRW8cN" target="_blank"=>network</a></li>
+            </ul>
+        </div>
+        <!--<div class="logo">
+             <img class="logo-img" src="images/logo.png" alt="Logo FunkTheTown" title="FunkTheTown" />
+         </div>-->
+        <div class="clearer"></div>
+        <div class="menu-bottom">
+            <ul id="menu2">
+                <li><a class="scroll" href="https://funkthetown.net/Funkthetown Radio.html" target="_blank">radio</a></li>
+                <li><a class="scroll" href="https://funkthetown.net/Funkthetown Studio.html">studio</a></li>
+                <li><a class="scroll" href="#dream">dream</a></li>
+                <li><a class="scroll" href="#school">school</a></li>
+                <li><a class="scroll" href="#action">action</a></li>
+            </ul>
+        </div>
+    
+
+
+    </div>
+
+    
+    <!--<img id="bg" src="images/KIF_0051.JPG">-->
+
+    
+    <div class="container2">
+
+        <div class="titre">
+            <img id="logo-radio" src="images/FRDS_logo_color-(original).png" alt="logo radio">
+            </div>
+
+        <div class="grandmix">
+            <a href="https://music.youtube.com/playlist?list=PL4bG2ZNGSaKGLw1vm3bbkvrsjBnOxxDs-" target="_blank"><img
+                    id="logo-grand-mix" src="images/GRAND-MIX.png" alt="logo radio"> </a>
+
+        </div>
+
+        <div class="emissions">
+
+            <a href="../Funkthetown-Emission.html"><img id="logo-emissions" src="images/EMISSIONS.png"
+                    alt="logo emissions"></a>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    var combinedMenu = $('#menu').clone();
+    var secondMenu = $('#menu2').clone();
+
+    secondMenu.children('li').appendTo(combinedMenu);
+
+    combinedMenu.slicknav({
+        duplicate: false
+    });
+
+</script>
+
+</html>
