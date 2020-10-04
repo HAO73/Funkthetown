@@ -34,19 +34,20 @@
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
 #my_popup
 {
-	
-	opacity: 1;
-	margin: auto;
-	margin-top: 7%;
-	top: 5%;
-	cursor: pointer;
 	z-index: 12;
+	cursor: pointer;
+	
 	
 
 	/*top: 50px !important;*/
 }
+
+
+
+
 @media screen and (orientation: portrait) {
   .logo-img { max-width: 90%; }
 }
