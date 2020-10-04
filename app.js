@@ -14,10 +14,12 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
-app.listen(3000, function(){
+app.listen(port, host, function(){
 
-    console.log("listening on Port 3000");
+    console.log("Server started");
 });
 
 
