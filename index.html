@@ -69,13 +69,13 @@ Funthetown jẹ ajọṣepọ kan, ohun-ara-ara, ẹgbẹ kan ti o fẹ lati ṣ
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
 <script src="js/jquery.slicknav.min.js"></script>
-<div id="my_popup" style="display:none;">
-<img src="/images/popup-ftt.jpg" width="100%" /><a href="Marharba@Funkthetown.net.html" target="_blank"></a>
+<div id="my_popup" style="transition: 3s;display:none;">
+<img src="/images/popup-ftt.jpg" width="100%" /></a>
 </div>
 
 </head>
 
-<body>
+<body onload="pop_up()">
 	<!--<img id="bg" alt="" src="images/bkg.jpg" />-->
    
 	<div class="container">
@@ -152,25 +152,46 @@ Funthetown jẹ ajọṣepọ kan, ohun-ara-ara, ẹgbẹ kan ti o fẹ lati ṣ
 		duplicate:false
 	});
 	//$(document).ready(function() {
-	$('.logo-img').on('click', function(){
-      // Initialize the plugin
-      $('#my_popup').popup({
-		setzindex: true,
-		transition: 'all 3s',
-		horizontal: 'center',
-		vertical: 'center',
-		backgroundactive:false,
-		background:false,
-		pagecontainer: 'body',
-		escape: true,
-		blur: true,
-		autoopen: true
+	// $('.logo-img').on('click', function(){
+    //   // Initialize the plugin
+    //   $('#my_popup').popup({
+	// 	setzindex: true,
+	// 	transition: 'all 3s',
+	// 	horizontal: 'center',
+	// 	vertical: 'center',
+	// 	backgroundactive:false,
+	// 	background:false,
+	// 	pagecontainer: 'body',
+	// 	escape: true,
+	// 	blur: true,
+	// 	autoopen: true
 		
-	  })
+	//   })
 
-    });
+    // });
 </script>
 <script type ="text/javascript" src="app.js"></script>
+
+
+<script>
+
+
+
+</script>
+
+
+<script>
+ function pop_up(){
+
+setTimeout(myFunction, 5000);
+ }
+
+
+	function myFunction() {
+	  		
+	  document.getElementById("my_popup").style.display = "block";
+	}
+	</script>
 
 <!-- <script>
 
