@@ -23,7 +23,22 @@ app.listen(port, host, function(){
 app.post('/', function (req,res){
     
     addEmailToMailchimp(req.body.email);
-    res.end(modal());
+    
+    // function modal(){
+
+    //   const btn = document.querySelector('.btn');
+    //     const modalAllGood = document.querySelector('.modal_allgood');
+    //     const modalCLose = document.querySelector('.modal-close');
+    
+    //     btn.addEventListener('click', function(){
+    //     modalAllGood.classList.add('modal_active')});
+    
+    //     modalCLose.addEventListener('click',function(){
+    //       modalAllGood.classList.remove('modal_active');
+    
+    //     })
+    // }
+    res.end('status');
 
 
   })
