@@ -24,21 +24,23 @@ app.post('/', function (req,res){
     
     addEmailToMailchimp(req.body.email);
     
-    // function modal(){
+    const confirm = modal() ;
 
-    //   const btn = document.querySelector('.btn');
-    //     const modalAllGood = document.querySelector('.modal_allgood');
-    //     const modalCLose = document.querySelector('.modal-close');
+    function modal(){
+
+      const btn = document.querySelector('.btn');
+        const modalAllGood = document.querySelector('.modal_allgood');
+        const modalCLose = document.querySelector('.modal-close');
     
-    //     btn.addEventListener('click', function(){
-    //     modalAllGood.classList.add('modal_active')});
+        btn.addEventListener('click', function(){
+        modalAllGood.classList.add('modal_active')});
     
-    //     modalCLose.addEventListener('click',function(){
-    //       modalAllGood.classList.remove('modal_active');
+        modalCLose.addEventListener('click',function(){
+          modalAllGood.classList.remove('modal_active');
     
-    //     })
-    // }
-    res.end(status);
+        })
+    }
+    res.end(confirm);
 
 
   })
