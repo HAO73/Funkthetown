@@ -23,7 +23,7 @@ app.listen(port, host, function(){
 app.post('/', function (req,res){
     
     addEmailToMailchimp(req.body.email);
-    res.end('it works');
+    res.end(modal());
 
 
   })
