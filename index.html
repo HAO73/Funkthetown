@@ -217,6 +217,21 @@ setTimeout(myFunction, 5000);
 	});
 	
 
+
+
+  const btn = document.querySelector('.btn');
+  const modalAllGood = document.querySelector('.modal_allgood');
+  const modalCLose = document.querySelector('.modal-close');
+
+  btn.addEventListener('click', function(){
+  modalAllGood.classList.add('modal_active')});
+
+  modalCLose.addEventListener('click',function(){
+	modalAllGood.classList.remove('modal_active');
+
+  })
+
+
 	
 	
 	</script>			

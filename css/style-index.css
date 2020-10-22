@@ -325,11 +325,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	  }
 	  
 	  .modal_allgood{
-		position:fixed;
-		width: 100%;
-		height: 100vh;
-		top: 0 ;
-		left: 0;
+		position: fixed; 
+		width: 50%;
+		height: 50vh;
+		top: 25% ;
+		left: center;
+		right: 25%;
+		bottom: center;
+		margin: auto;
 		background-color: rgba(90, 74, 66, 0.3);
 		display: flex;
 		justify-content: center;

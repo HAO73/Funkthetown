@@ -1,6 +1,14 @@
 const express = require('express');
+const fs =require('fs');
+const https = require('https');
+const http = require('http');
 const app = express();
+module.exports = app;
 const bodyParser = require ('body-parser');
+const path = require('path');
+
+// const env = require(`/environment/${process.env.NODE_ENV}`);
+
 
 //Middleware
 app.use(express.static(__dirname +'/'));
@@ -11,42 +19,49 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-const host = '0.0.0.0';
-const port = process.env.PORT || 3000;
+// const host = '0.0.0.0';
+// const port = process.env.PORT || 3000;
 
-app.listen(port, host, function(){
+// app.listen(port, host, function(){
 
-    console.log("Server started");
-});
+//     console.log("Server started");
+// });
+
+const httpServer = http.createServer((req,res)=>{
+  res.writeHead(301,{Location:`https://${req.headers.hostname}${req.url}`});
+}).listen(80);
+
+const httpsServer = https.createServer({
+  // key: fs.readFileSync('./ssl/local.key'),
+  // cert: fs.readFileSync('./ssl/local.cert'),
+}, app).listen(443);
+
+
+
+
+app.set('view engine','ejs');
+
 
 
 app.post('/', function (req,res){
     
-    addEmailToMailchimp(req.body.email);
+  addEmailToMailchimp(req.body.email);
     
-    const confirm = modal() ;
+    // const confirm = modal() ;
+          // setTimeout(function(){
 
-    function modal(){
+            res.render('index', function (err, html) {
+              res.send(html)
+            })
+            
 
-      const btn = document.querySelector('.btn');
-        const modalAllGood = document.querySelector('.modal_allgood');
-        const modalCLose = document.querySelector('.modal-close');
-    
-        btn.addEventListener('click', function(){
-        modalAllGood.classList.add('modal_active')});
-    
-        modalCLose.addEventListener('click',function(){
-          modalAllGood.classList.remove('modal_active');
-    
-        })
-    }
-    res.end(confirm);
 
+  // },3000);
 
   })
 
 
-
+  // sendFile(__dirname+'/index.html');
 
 
 
