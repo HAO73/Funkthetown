@@ -28,12 +28,13 @@ app.use(bodyParser.json())
 // });
 
 const httpServer = http.createServer((req,res)=>{
-  res.writeHead(301,{Location:`https://${req.headers.hostname}${req.url}`});
+  res.writeHead(301,{Location:`https://${req.headers.host}${req.url}`});
+  res.end();
 }).listen(80);
 
 const httpsServer = https.createServer({
-  // key: fs.readFileSync('./ssl/local.key'),
-  // cert: fs.readFileSync('./ssl/local.cert'),
+  key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/fullchain.pem'),
 }, app).listen(443);
 
 
