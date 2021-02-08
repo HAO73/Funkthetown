@@ -13,7 +13,7 @@ body {
   background-position:center center;
   height:100%;
   overflow-y:hidden;
-  background-color: rgba(251, 176, 65);
+  background-color: rgba(93, 64, 192);
 }
 /* reset */
 span, applet, object, iframe,
@@ -108,7 +108,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	-o-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
 }
-.menu-bottom li:nth-child(odd) a
+/* .menu-bottom li:nth-child(odd) a
 {
 	margin-bottom: -62px;	
 }
@@ -117,7 +117,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-top li:nth-child(odd) a
 {
 	margin-top: -62px;	
-}
+} */
 
 .menu-top li:nth-child(even) a,
 .menu-bottom li:nth-child(even) a  {
@@ -142,7 +142,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-bottom li:nth-child(odd) a:hover {
 	background-color: rgba(251, 176, 65, 0.6);
 }
-.menu-top li:nth-child(even) a
+/* .menu-top li:nth-child(even) a
 {
 	padding-bottom:40px;
 	margin-top: -102px;	
@@ -151,7 +151,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
 	padding-top:40px;
 	margin-bottom: -102px;	
-}
+} */
 
 .menu-top li a:hover
 {
@@ -229,7 +229,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		
 		display: flex;
 		justify-content: space-around;
-		background-color: rgba(251, 176, 65);
+		background-color: rgba(93, 64, 192);
 		align-items: center;
 		
 		
@@ -240,7 +240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		
 		display: flex;
 		justify-content: space-between;
-		background-color: rgba(90, 74, 66);
+		background-color: rgba(93, 64, 192);
 		
 	}
 
@@ -248,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		
 		display: flex;
 		justify-content: space-between;
-		background-color: rgba(90, 74, 66);
+		background-color: rgba(93, 64, 192);
 	
 	}
 

@@ -1,3 +1,4 @@
+
 const express = require('express');
 const fs =require('fs');
 const https = require('https');
@@ -19,23 +20,23 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-// const host = '0.0.0.0';
-// const port = process.env.PORT || 3000;
+const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
-// app.listen(port, host, function(){
+app.listen(port, host, function(){
 
-//     console.log("Server started");
-// });
+    console.log("Server started");
+});
 
-const httpServer = http.createServer((req,res)=>{
-  res.writeHead(301,{Location:`https://${req.headers.host}${req.url}`});
-  res.end();
-}).listen(80);
+// const httpServer = http.createServer((req,res)=>{
+//   res.writeHead(301,{Location:`https://${req.headers.host}${req.url}`});
+//   res.end();
+// }).listen(80);
 
-const httpsServer = https.createServer({
-  key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/fullchain.pem'),
-}, app).listen(443);
+// const httpsServer = https.createServer({
+//   key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
+//   cert: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/fullchain.pem'),
+// }, app).listen(443);
 
 
 

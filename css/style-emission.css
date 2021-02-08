@@ -58,7 +58,7 @@
   }
 body
 {
-	background-color: rgba(251, 176, 65); 
+	background-color: rgba(138, 80, 200); 
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -161,7 +161,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	-o-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
 }
-.menu-bottom li:nth-child(odd) a
+/* .menu-bottom li:nth-child(odd) a
 {
 	margin-bottom: -62px;	
 }
@@ -170,7 +170,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-top li:nth-child(odd) a
 {
 	margin-top: -62px;	
-}
+} */
 
 .menu-top li:nth-child(even) a,
 .menu-bottom li:nth-child(even) a  {
@@ -195,7 +195,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-bottom li:nth-child(odd) a:hover {
 	background-color: rgba(251, 176, 65, 0.6);
 }
-.menu-top li:nth-child(even) a
+/* .menu-top li:nth-child(even) a
 {
 	padding-bottom:40px;
 	margin-top: -102px;	
@@ -204,7 +204,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
 	padding-top:40px;
 	margin-bottom: -102px;	
-}
+} */
 
 .menu-top li a:hover
 {
@@ -239,10 +239,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 #video {
-	position: absolute;
+	/* position: absolute;
 	top:40%;
-	left:35%;
-
+	left:35%; */
+	
 
 }
 .container2{
@@ -251,10 +251,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 	position: fixed;
 	display:flex;
-	justify-content: space-between;
-	top: 10%;
-	left:10%;
-	margin: auto;
+	justify-content:space-between;
+	top: 20%;
+	left:5%;
+	right:5%;
+	align-items: center;
+	
 
 
 }
@@ -268,10 +270,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
-  
-	text-shadow: 0.05em 0 0  rgba(90, 74, 66, 0.75),
-	  -0.025em -0.05em 0 rgba(251, 176, 65, 0.75),
-	  0.025em 0.05em 0 rgba(255, 255, 255, 0.75);
+	margin:auto;
+	text-shadow: 0.05em 0 0  rgba(252, 241, 63, 0.75),
+	  -0.025em -0.05em 0 rgba(53, 132, 255, 0.75),
+	  0.025em 0.05em 0 rgba(138, 80, 200, 0.75);
   
 	animation: glitch 500ms infinite;
   }
@@ -302,37 +304,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   
   @keyframes glitch {
 	0% {
-	  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-		-0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-		-0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: 0.05em 0 0 rgba(252, 241, 63, 0.75),
+		-0.05em -0.025em 0 rgba(53, 132, 255, 0.75),
+		-0.025em 0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	14% {
-	  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
-		-0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
-		-0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: 0.05em 0 0 rgba(252, 241, 63, 0.75),
+		-0.05em -0.025em 0 rgba(53, 132, 255, 0.75),
+		-0.025em 0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	15% {
-	  text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-		0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-		-0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: -0.05em -0.025em 0 rgba(252, 241, 63 0.75),
+		0.025em 0.025em 0 rgba(53, 132, 255, 0.75),
+		-0.05em -0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	49% {
-	  text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
-		0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
-		-0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: -0.05em -0.025em 0 rgba(252, 241, 63, 0.75),
+		0.025em 0.025em 0 rgba(53, 132, 255, 0.75),
+		-0.05em -0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	50% {
-	  text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-		0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: 0.025em 0.05em 0 rgba(252, 241, 63, 0.75),
+		0.05em 0 0 rgba(53, 132, 255, 0.75), 0 -0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	99% {
-	  text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
-		0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: 0.025em 0.05em 0 rgba(252, 241, 63, 0.75),
+		0.05em 0 0 rgba(53, 132, 255, 0.75), 0 -0.05em 0 rgba(138, 80, 200, 0.75);
 	}
 	100% {
-	  text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
-		-0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
-		-0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+	  text-shadow: -0.025em 0 0 rgba(252, 241, 63, 0.75),
+		-0.025em -0.025em 0 rgba(53, 132, 255, 0.75),
+		-0.025em -0.05em 0 rgba(138, 80, 200, 0.75);
 	}
   }
   

@@ -34,6 +34,9 @@
 }
 
 */
+
+
+
 #my_popup
 {
 	opacity:0.5;
@@ -58,7 +61,7 @@
 }
 body
 {
-  background: url(../images/COUVERTURE-PAGE-FACEBOOK-(rework-II).jpg): no-repeat center center fixed; 
+  background: url(../images/): no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,6 +84,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  background-color:rgba(255,53,198);
   margin: 0;
   padding: 0;
   border: 0;
@@ -153,14 +157,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  line-height: 80px;
  color:#fff;
  display:block;
- background-color: rgba(251, 176, 65, 0.3);
+ background-color: rgba(253, 176, 65, 0.3);
  -webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
 	-ms-transition: all 500ms ease-in-out;
 	-o-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
 }
-.menu-bottom li:nth-child(odd) a
+/* .menu-bottom li:nth-child(odd) a
 {
 	margin-bottom: -62px;	
 }
@@ -169,7 +173,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-top li:nth-child(odd) a
 {
 	margin-top: -62px;	
-}
+} */
 
 .menu-top li:nth-child(even) a,
 .menu-bottom li:nth-child(even) a  {
@@ -190,11 +194,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 
-.menu-top li:nth-child(odd) a:hover,
+/* .menu-top li:nth-child(odd) a:hover,
 .menu-bottom li:nth-child(odd) a:hover {
 	background-color: rgba(251, 176, 65, 0.6);
-}
-.menu-top li:nth-child(even) a
+} */
+/* .menu-top li:nth-child(even) a
 {
 	padding-bottom:40px;
 	margin-top: -102px;	
@@ -203,7 +207,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
 	padding-top:40px;
 	margin-bottom: -102px;	
-}
+} */
 
 .menu-top li a:hover
 {
