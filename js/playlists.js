@@ -106,16 +106,18 @@ var playlist_Marw = [
 	"type": "audio",
 	"artist": "Marw",
 	"title": "MartinOne",
-	"audio": "../audio/Marw/Marw-MartinOne.wav",
-	"cover": "../images/KIF_0051.jpg"
+	"audio": "https://funkthetown.net/audio/Marw/Marw-MartinOne.wav",
+	"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+	"dwn": "https://funkthetown.net/audio/Marw/Marw-MartinOne.wav"
 },
 
 {
 	"type": "audio",
 	"artist": "Marw",
 	"title": "Enjoy",
-	"audio": "../audio/Marw/Marw-Enjoy.wav",
-	"cover": "../images/Marw/MACARON_ENJOY_FTTR01(small).jpg"
+	"audio": "https://funkthetown.net/audio/Marw/Marw-Enjoy.wav",
+	"cover": "https://funkthetown.net/images/Marw/MACARON_ENJOY_FTTR01(small).jpg",
+	"dwn": "https://funkthetown.net/audio/Marw/Marw-Enjoy.wav"
 },
 
 
@@ -123,16 +125,18 @@ var playlist_Marw = [
 	"type": "audio",
 	"artist": "Marw",
 	"title": "Love is it (Ring Tone)",
-	"audio": "../audio/Marw/Marw-love_is_It.wav",
-	"cover": "../images/KIF_0051.jpg"
+	"audio": "https://funkthetown.net/audio/Marw/Marw-love_is_It.wav",
+	"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+	"dwn": "https://funkthetown.net/audio/Marw/Marw-love_is_It.wav"
 },
 
 {
 	"type": "audio",
 	"artist": "Marw",
 	"title": "Utterance",
-	"audio": "../audio/Marw/Marw - utterance.wav",
-	"cover": "../images/KIF_0051.jpg"
+	"audio": "https://funkthetown.net/audio/Marw/Marw - utterance.wav",
+	"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+	"dwn": "https://funkthetown.net/audio/Marw/Marw - utterance.wav"
 },
 
 
@@ -140,16 +144,18 @@ var playlist_Marw = [
 	"type": "audio",
 	"artist": "Marw",
 	"title": "SunTimes",
-	"audio": "../audio/Marw/Marw - sUNtIMES.wav",
-	"cover": "../images/KIF_0051.jpg"
+	"audio": "https://funkthetown.net/audio/Marw/Marw - sUNtIMES.wav",
+	"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+	"dwn": "https://funkthetown.net/audio/Marw/Marw - sUNtIMES.wav"
 },
 
 {
 "type": "audio",
 "artist": "Marw",
 "title": "4 My People",
-"audio": "../audio/Marw/Marw - 4MyPeople.wav",
-"cover": "../images/KIF_0051.jpg"
+"audio": "https://funkthetown.net/audio/Marw/Marw - 4MyPeople.wav",
+"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+"dwn": "https://funkthetown.net/audio/Marw/Marw - 4MyPeople.wav"
 },
 
 
@@ -164,24 +170,27 @@ var playlist_Em_Tro = [
 		"type": "audio",
 		"artist": "Em Tro",
 		"title": "Xama 103",
-		"audio": "../audio/Em_Tro/Em Tro - Xama 103.wav",
-		"cover": "../images/KIF_0051.jpg"
+		"audio": "https://funkthetown.net/audio/Em_Tro/Em Tro - Xama 103.wav",
+		"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+		"dwn": "https://funkthetown.net/audio/Em_Tro/Em Tro - Xama 103.wav"
 	},
 
 	{
 		"type": "audio",
 		"artist": "Em Tro",
 		"title": "Inside Out (demo)",
-		"audio": "../audio/Em_Tro/Em Tro - Inside Out.wav",
-		"cover": "../images/KIF_0051.jpg"
+		"audio": "https://funkthetown.net/audio/Em_Tro/Em Tro - Inside Out.wav",
+		"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+		"dwn": "https://funkthetown.net/audio/Em_Tro/Em Tro - Inside Out.wav"
 	},
 
 	{
 		"type": "audio",
 		"artist": "Em Tro",
 		"title": "DataGroove",
-		"audio": "../audio/Em_Tro/Em Tro - DataGroove.wav",
-		"cover": "../images/KIF_0051.jpg"
+		"audio": "https://funkthetown.net/audio/Em_Tro/Em Tro - DataGroove.wav",
+		"cover": "https://funkthetown.net/images/KIF_0051.jpg",
+		"dwn": "https://funkthetown.net/audio/Em_Tro/Em Tro - DataGroove.wav"
 	},
 
 
