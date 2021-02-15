@@ -32,6 +32,10 @@
 
 */
 
+.slicknav_menu,
+#menu-global {
+	display:none;
+}
 
 
 #my_popup
