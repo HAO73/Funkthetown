@@ -69,6 +69,7 @@ body
   background-position:center center;
   height:100%;
   overflow-y:hidden;
+  background-color:rgba(255,53,198);
 }
 /* reset */
 html, body, div, span, applet, object, iframe,
@@ -84,7 +85,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  background-color:rgba(255,53,198);
+  
   margin: 0;
   padding: 0;
   border: 0;

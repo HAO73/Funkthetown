@@ -162,35 +162,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
 	margin-bottom: 0px;	
 }
-@media (max-width: 1330px) {
-	.menu-top,
-	.menu-bottom
-	{
-		font-size:40px;
-	}
-}
-@media (max-width: 900px) {
-	/* #menu is the original menu */
-	#menu,
-	#menu-global,
-	#menu2 {
-		display:none;
-
-
-	}
-	
-	.slicknav_menu {
-		display:block;
-		position: relative;
-    	z-index: 10;
-	}
-
-	.columns {
-
-		flex-direction: row;
-	}
-}
-
 
 
 
@@ -231,6 +202,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		justify-content: space-around;
 		background-color: rgba(93, 64, 192);
 		align-items: center;
+		color: white;
 		
 		
 	
@@ -241,7 +213,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		display: flex;
 		justify-content: space-between;
 		background-color: rgba(93, 64, 192);
-		
+		color: white;
 	}
 
 	.categorie3 {
@@ -249,7 +221,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		display: flex;
 		justify-content: space-between;
 		background-color: rgba(93, 64, 192);
-	
+		color: white;
 	}
 
 
@@ -281,4 +253,105 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	
 	
 	}
+	
+
+	@media (max-width: 1330px) {
+		.menu-top,
+		.menu-bottom
+		{
+			font-size:40px;
+		}
+	}
+	@media (max-width: 900px) {
+		/* #menu is the original menu */
+		#menu,
+		#menu-global,
+		#menu2 {
+			display:none;
+	
+	
+		}
+		
+		.slicknav_menu {
+			display:block;
+			position: relative;
+			z-index: 10;
+		}
+	
+
+		body{
+
+			overflow-y: visible;
+
+
+		}
+
+
+		
+		html {
+	
+	
+			font-size:6px;
+	
+		}
+	
+
+		.containerlogos {
+
+			
+			margin: 0rem;
+
+
+
+		}
+
+
+		.categorie1 {
+			
+			
+			display: flex;
+			flex-direction:column;
+			justify-content: space-around;
+			background-color: rgba(93, 64, 192);
+			align-items: center;
+			
+			
+			
+			
+		
+		}
+		
+		.categorie2 {
+			
+			display: flex;
+			flex-direction:column;
+			justify-content: space-around;
+			background-color: rgba(93, 64, 192);
+			align-items: center;
+		}
+	
+		.categorie3 {
+			
+			display: flex;
+			flex-direction:column;
+			justify-content: space-around;
+			background-color: rgba(93, 64, 192);
+			align-items: center;
+	
+	
+		}
+	
+		
+		img{
+			
+			
+			width:25%;
+			height:25%;
+			
+			
+		}
+		
+	
+	}
+	
 	
