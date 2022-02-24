@@ -248,6 +248,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 display:flex;
 justify-content: space-between;
+align-items: center;
+text-align: center;
 
 }
 
@@ -259,7 +261,8 @@ justify-content: space-between;
 	font-family: 'Arial Rounded MT Bold Regular';   
 	margin:auto;
 	color:white;
-	font-size: 2em;
+	font-size: 3rem;
+
 	
 
 }
@@ -270,6 +273,7 @@ img {
 	width:35%;
 	height:50%;
 	margin-top: 5rem;
+	border-radius: 32px;
 	
 }
 
@@ -283,7 +287,43 @@ img {
 
 #Em_tro h1{
 
-	font-size:4rem;
+	font-size:3rem;
+
+
+}
+
+#FTTR {
+
+	order:-3;
+
+
+}
+
+
+#FTTR img {
+	
+	width:75%;
+	height:75%;
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+	body {
+		height:100%;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.container2{
+
+		flex-direction: column;
+		
+		}
+		
+
 
 
 }
