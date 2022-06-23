@@ -68,9 +68,8 @@
 body
 {
 
-	background-color: black;
-	background: url(../images/bkg.jpg) no-repeat center center fixed; 
-  
+	background-color: rgba(251, 176, 65);
+ 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -249,165 +248,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	}
 }
 
-
-
-	
+#thumbs {
 
 
 
 
-#video {
-
-	display:none;
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	MAX-width: 60%;
-	MAX-height: 60%;
-	z-index:9999;
-	transform: translateX(-50%) translateY(-50%);
-	animation-name: video_appear;
-	animation-duration: 2.5s;
-	
-
-
-	}  
-
-
-	@keyframes video_appear {
-
-		from{opacity: 0;}
-		to{opacity:1}
-
-
-	}
+}
 
 	
 
-	  .container2{
-		
-	
-		position:fixed;
-		display:block;
-		padding: 10px;
-		text-align: center;
-		color: rgba(251, 176, 65);
-		top:59%;
-		left:80%;
-		width:15rem;
-		height:2.5rem;
-		border-radius: 16px;
-		
 
-
-		 }
-	 
-		 .animate__animated.animate__slideInDown{
-
-			animation-duration: 15s;
-		 
-		 }
-		
-	
-
-
-
-	  /* .container p {
-		max-width: 600px;
-		margin: 40px auto;
-		font-size: 15px;
-		font-weight: 300;
-	  } */
-
-	  
-
-	  .email-box{
-		height: 160px;
-		width: 260px;
-		justify-content: center;
-		 /*its better to use inline-flex*/
-		 margin: auto;
-	  }
-
-
-	 
-
-	  .label {
-
-		background-color:rgba(90, 74, 66) ;
-		border-radius: 16px;
-		color:white;
-		margin: auto;
-
-	  }
-
-	  .email-box i{
-		background: rgba(90, 74, 66);
-		width: 260px;
-		border-radius: 16px;
-		color:white;
-		margin: auto;
-	  }
-	  .tbox,.btn{
-		border: none;
-		outline: none;
-	  }
-	  .tbox{
-		font-family:'Arial Rounded MT Bold Regular';
-		width: 260px;
-		transition: 0.6s;
-		border-radius: 16px;
-		height:2rem;
-	  }
-	  /* .email-box:hover > .tbox,.tbox:focus{
-		
-		padding: 0 10px;
-	  } */
-	  .btn{
-		font-family:'Arial Rounded MT Bold Regular';
-		font-size: bolder;
-		color: rgba(251, 176, 65);
-		background-color: rgba(90, 74, 66);
-		padding: 0 10px;
-		text-transform: uppercase;
-		cursor: pointer;
-		width:260px;
-		height: 2rem;
-		border-radius: 16px;
-		margin: auto;
-	  }
-	  
-	  .modal_allgood{
-		position: fixed; 
-		width: 50%;
-		height: 50vh;
-		top: 25% ;
-		left: center;
-		right: 25%;
-		bottom: center;
-		margin: auto;
-		background-color: rgba(90, 74, 66, 0.3);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		Color: white;
-		font-size: 3rem;
-		visibility: hidden;
-		opacity:0;
-		transition: visibility 0s, opacity 0.5s;
-	  }
-
-	  .modal_active{
-
-		visibility: visible;
-		opacity: 1;
-	  }
-
-	  .modal-close{
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		font-weight: bold;
-		cursor:pointer;
-
-	  }

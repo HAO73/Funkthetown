@@ -1,4 +1,13 @@
 
+ 	#text{
+
+	
+	
+
+}
+
+
+
   .ml10 {
     font-family: 'Arial Rounded MT Bold Regular';   
     font-weight:900;
@@ -9,7 +18,7 @@
     position: relative;
     z-index: 3;
     top:3.5em;
-    
+	
   }
   
   .ml10 .text-wrapper {
@@ -19,13 +28,22 @@
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
+	
     
   }
   
+  .letter {
+	display:block;
+	
+	
+}
+
+
   .ml10 .letter {
     display: inline-block;
     line-height: 1em;
     transform-origin: 0 0;
+		
   }
 
   .slicknav_menu,
@@ -91,7 +109,7 @@
 }
 body
 {
-  background: url(../images/): no-repeat center center fixed; 
+	
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

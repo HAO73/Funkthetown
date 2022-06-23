@@ -6,6 +6,8 @@
 
 body {
  
+   text-align: center;
+   align-items: center;	
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,7 +15,8 @@ body {
   background-position:center center;
   height:100%;
   overflow-y:hidden;
-  background-color: rgba(93, 64, 192);
+  background-color: black
+
 }
 /* reset */
 span, applet, object, iframe,
@@ -55,7 +58,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .container
 {
+
 	display:block;
+	
 	/*position:relative;*/
 }
 
@@ -183,77 +188,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	
 	.containerlogos {
 
-		background-color: rgba(90, 74, 66);
+		
 		font-family: 'Nunito', sans-serif;
 		font-weight: bolder;
 		margin: 5% 0 0 0;
-		
-		
-		
-		
-		
-	
-	}
-	
-	.categorie1 {
-		
-		
 		display: flex;
-		justify-content: space-around;
-		background-color: rgba(93, 64, 192);
-		align-items: center;
-		color: white;
-		
-		
-	
-	}
-	
-	.categorie2 {
-		
-		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
-		background-color: rgba(93, 64, 192);
-		color: white;
-	}
-
-	.categorie3 {
 		
-		display: flex;
-		justify-content: space-between;
-		background-color: rgba(93, 64, 192);
-		color: white;
-	}
-
-
-
-
-	.titre {
+		padding: 8rem;
+		
+		
 	
+	}
+
 		
-		font-size:3rem;
+	.categorie1 img {
+		
+		width:25rem;
+		height:25rem
+		
 		
 		
 	
 	}
 	
-	img{
+	.categorie2 img{
 		
 		
-		width:13%;
-		
-		
-		
+		width:30rem;
+		height:30rem
 	}
-	
-	p {
-		
 
-		font-size:3rem;
-		text-align: center;
-	
-	
+	.categorie3 img {
+		width:25rem;
+		height:25rem;
+		
 	}
-	
+
+
+
+
+
+
+
+
 
 	@media (max-width: 1330px) {
 		.menu-top,
@@ -262,6 +241,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 			font-size:40px;
 		}
 	}
+
+
+	html {
+	
+	
+		font-size:10px;
+
+	}
+
+
+
+
+
 	@media (max-width: 900px) {
 		/* #menu is the original menu */
 		#menu,
@@ -269,9 +261,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		#menu2 {
 			display:none;
 	
-	
 		}
 		
+
+
 		.slicknav_menu {
 			display:block;
 			position: relative;
@@ -282,7 +275,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		body{
 
 			overflow-y: visible;
-
+			align-items: center;
+			text-align: center;
 
 		}
 
@@ -295,12 +289,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	
 		}
 	
+	
 
 		.containerlogos {
 
 			
-			margin: 0rem;
-
+			margin: 5rem;
+			display: block;
 
 
 		}
@@ -309,10 +304,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		.categorie1 {
 			
 			
-			display: flex;
-			flex-direction:column;
-			justify-content: space-around;
-			background-color: rgba(93, 64, 192);
+			
+			margin: 5rem;
+			
 			align-items: center;
 			
 			
@@ -323,33 +317,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 		
 		.categorie2 {
 			
-			display: flex;
-			flex-direction:column;
-			justify-content: space-around;
-			background-color: rgba(93, 64, 192);
+			
+			margin: 5rem;
+			
 			align-items: center;
 		}
 	
 		.categorie3 {
 			
-			display: flex;
-			flex-direction:column;
-			justify-content: space-around;
-			background-color: rgba(93, 64, 192);
+			
+			margin: 5rem;
+			
 			align-items: center;
 	
 	
 		}
 	
 		
-		img{
-			
-			
-			width:25%;
-			height:25%;
-			
-			
-		}
 		
 	
 	}

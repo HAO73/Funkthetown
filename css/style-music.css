@@ -63,18 +63,19 @@
 }
 body
 {
-  background: url(../images/): no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position:center center;
+  
+ 
+  
   height:100%;
   overflow-y:hidden;
   background-color: black;
+  margin:auto;
+  align-items: center;
+text-align: center;
+  
 }
 /* reset */
-html, body, div, span, applet, object, iframe,
+html,div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -245,11 +246,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .container2{
-
+position: absolute;
 display:flex;
 justify-content: space-between;
-align-items: center;
-text-align: center;
+margin: auto;
+border:12px white;
+top:17.5%;
+
 
 }
 
@@ -294,7 +297,7 @@ img {
 
 #FTTR {
 
-	order:-3;
+	order:0;
 
 
 }
@@ -320,10 +323,17 @@ img {
 	.container2{
 
 		flex-direction: column;
+		top:0%;
 		
 		}
 		
+		#FTTR {
 
+			order:-3;
+		
+		
+		}
+		
 
 
 }
