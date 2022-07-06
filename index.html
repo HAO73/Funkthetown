@@ -84,14 +84,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 <body onload="pop_up()">
 	<!--<img id="bg" alt="" src="images/bkg.jpg" />-->
+	<!-- <button class="box b1">
+		<div class="container-lignes">
+		  <div class="ligne"></div>
+		  <div class="ligne"></div>
+		  <div class="ligne"></div>
+		</div>
+	  </button> -->
+
+
    
 	<div class="container">
         <div class="menu-top">
             <ul id="menu">
-                <li><a class="scroll" href="Funkthetown Events.html" target="_blank">events</a></li>
-                <li><a class="scroll" href="Funkthetown Music.html">music</a></li>
-                <li><a class="scroll" href="https://architec08.wixsite.com/funkthetownclothes" target="_blank">clothes</a></li>
-                <li><a class="scroll" href="https://discord.gg/qdRW8cN" target="_blank">network</a></li>
+                <li class="menuTop"><a  href="Funkthetown Events.html" target="_blank">events</a></li>
+                <li class="menuTop"><a  href="Funkthetown Music.html">music</a></li>
+                <li class="menuTop"><a  href="https://architec08.wixsite.com/funkthetownclothes" target="_blank">clothes</a></li>
+                <li class="menuTop"><a  href="https://discord.gg/qdRW8cN" target="_blank">network</a></li>
             </ul>
         </div>
         <div class="logo">
@@ -100,11 +109,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         <div class="clearer"></div>
         <div class="menu-bottom">
             <ul id="menu2">
-                <li><a class="scroll" href="Funkthetown Radio.html" target="_blank">radio</a></li>
-                <li><a class="scroll" href="Funkthetown Studio.html">studio</a></li>
-                <li><a class="scroll" href="Funkthetown Dream.html">dream</a></li>
-                <li><a class="scroll" href="#school">school</a></li>
-                <li><a class="scroll" href="#action">action</a></li>
+                <li class="menuBottom"><a class="scroll" href="Funkthetown Radio.html" target="_blank">radio</a></li>
+                <li class="menuBottom"><a class="scroll" href="Funkthetown Studio.html">studio</a></li>
+                <li class="menuBottom"><a class="scroll" href="Funkthetown Dream.html">dream</a></li>
+                <li class="menuBottom"><a class="scroll" href="#school">school</a></li>
+                <li class="menuBottom"><a class="scroll" href="#action">action</a></li>
             </ul>
         </div>
      </div>
@@ -198,17 +207,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <script type ="text/javascript" src="app.js"></script>
 
 
-<script>
+<!-- <script>
+
+const allBoxes = document.querySelectorAll('.box');
 
 
+allBoxes.forEach(box => {
 
-</script>
+    box.addEventListener('click', e => {
+        e.target.classList.toggle('active');
+		menuAppear()
+    })
+	
+
+	function menuAppear(){
+	 const menuTop = document.querySelectorAll(".menu-top li a")
+
+	 	console.log(menuTop)
+
+	 	menuTop.style.marginTop = "0px";
+		document.querySelectorAll(".menu-bottom li a").style.marginBottom = "0px";
+	}
+
+})
+
+</script> -->
 
 
 <script>
  function pop_up(){
 
-setTimeout(myFunction, 3000);
+setTimeout(myFunction, 2000);
  }
 
 
@@ -262,8 +291,21 @@ setTimeout(myFunction, 3000);
 
 	
 	
-	</script>			
-
+	</script>	
+			
+<script>
+	 var combinedMenu = $('#menu').clone();
+	 var secondMenu = $('#menu2').clone();
+	
+	 secondMenu.children('li').appendTo(combinedMenu);
+	
+	 combinedMenu.slicknav({
+ 	duplicate:false
+	 });
+	 $(document).ready(function() {
+	
+});
+</script>
  
 
 
