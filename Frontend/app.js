@@ -1,76 +1,74 @@
 
-// const express = require('express');
-// const fs =require('fs');
-// const https = require('https');
-// const http = require('http');
-// const app = express();
-// module.exports = app;
-// const bodyParser = require ('body-parser');
-// const path = require('path');
+ const express = require('express');
+ const fs =require('fs');
+ const https = require('https');
+ const http = require('http');
+ const app = express();
+ module.exports = app;
+ const bodyParser = require ('body-parser');
+ const path = require('path');
 
-
-// const env = require(`/environment/${process.env.NODE_ENV}`);
 
 
 //Middleware
-// app.use(express.static(__dirname +'/'));
+ app.use(express.static(__dirname +'/'));
 
 // parse application/x-www-form-urlencoded
-// app.use(bodyParser.urlencoded({ extended: false }))
+  app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
-// app.use(bodyParser.json())
+  app.use(bodyParser.json())
 
 
-//  app.engine('html', require('ejs').renderFile);
-//  app.set('view engine','html');
-//  app.set('views', path.join(__dirname, '/'));
+   app.engine('html', require('ejs').renderFile);
+   app.set('view engine','html');
+   app.set('views', path.join(__dirname, '/'));
 
 
 // demo
 
-    // const host = '0.0.0.0';
-    // const port = process.env.PORT || 3000;
+    //  const host = '0.0.0.0';
+    //   const port = process.env.PORT || 3000;
 
-    // app.listen(port, host, function(){
+    //    app.listen(port, host, function(){
 
-    //   console.log("Server started");
-    // });
+    //    console.log("Server started");
+    //    });
 
 //live
 
-  //   const httpServer = http.createServer((req,res)=>{
-  //   res.writeHead(301,{Location:`https://${req.headers.host}${req.url}`});
-  //     res.end();
-  //  }).listen(80);
+        const httpServer = http.createServer((req,res)=>{
+        res.writeHead(301,{Location:`https://${req.headers.host}${req.url}`});
+         res.end();
+     }).listen(80);
 
-  //    const httpsServer = https.createServer({
-  //     key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
-  //     cert: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/fullchain.pem'),
-  //  }, app).listen(443);
-
-
+         const httpsServer = https.createServer({
+          key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
+          cert: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/fullchain.pem'),
+       }, app).listen(443);
 
 
 
-// app.post('/', function (req,res){
+
+
+//  app.post('/', function (req,res){
 
 //   addEmailToMailchimp(req.body.email);
 
     
-//                  setTimeout(function(){
+  //                 setTimeout(function(){
 
-//              res.render('index', function (err, html) {
-//                  res.send(html)
-//                })
+  //            res.render('index', function (err, html) {
+  //                res.send(html)
+  //              })
 
 
 
-//      },2000);
+  //     },2000);
 
-    // sendFile(__dirname+'/index.html');
+  //    sendFile(__dirname+'/index.html');
 
-  // })
+  //  })
 
 
  
