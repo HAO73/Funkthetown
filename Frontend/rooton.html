@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no">
+    <title>Funkthetown.net</title>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2899T3YLFP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2899T3YLFP');
+</script>
+
+
+    <link rel="stylesheet" href="css/style-intro.css" >
+    <link rel="stylesheet" href="css/fonts.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://kit.fontawesome.com/26d3fed8b3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="2.ico" />
+    
+  </head>
+<body>
+
+  
+
+  <div class="logo">
+    <img class="logo-img" src="images/logo.png" alt="Logo FunkTheTown" title="FunkTheTown" />
+</div> 
+
+
+  <div class="container2">
+ 
+
+    <div id="col1" style="background-color: rgb(255, 53, 198);">
+      
+      <div>
+      
+        <h1 class="ml10">
+            <span class="text-wrapper">
+          
+         <span class="letters"> Welcome @ Funkthetown.net, 
+          Funkthetown is an association  an organism, a collective which aim to transmit music culture to promote Peace, Love and Harmony.
+          Music is the infinite compassion of life, without music there is no life.
+          The transcodation of one instant into one vibration, that goes throught one point to another in any part of the universe.
+          Music is freedom, happyness, realness, almightyness and peace.                                   <br><br>
+          
+          </span>
+          
+    </span>
+    </h1>   
+    </div>
+    
+    </div>
+  
+
+
+    <div id="col2" style="background-color: rgb(252, 241, 63);">
+
+
+
+
+    </div>
+
+    <div id="col3" style="background-color: rgb(251, 176, 65);">
+
+
+
+    </div>
+
+    <div id="col4" style="background-color: rgb(53, 132, 255);">
+
+
+
+    </div>
+
+    <div id="col5"  style="background-color: rgb(138, 80, 200);">
+
+
+    </div>
+    <div id="col6" style="background-color: rgb(251, 176, 65)" >
+      
+<!--       
+      <div #="PLHMOBIL">
+      
+        <h1 class="ml11">
+          <span class="text-wrapper">
+           
+         <span class="letters2"> Peace, Love & Harmony</span>
+          
+          </span>
+      </h1>   
+      </div>  -->
+      
+      <form action="/" method="post" class="newslettersdesktop">
+        <input type="email" name="email" value="" placeholder="Newsletter Subscription"></input>
+        <button type="submit" name="submit">Send</button>
+         </form>   
+         </div>
+   
+      
+    </div> 
+
+    <div>
+      
+    <div id="col7" style="background-color: rgb(101, 192, 64)">
+      
+
+
+
+
+
+
+      <!-- son -->
+
+
+      
+      <div class="iconemutedesktop">
+        <i class="fas fa-volume-off" onclick="play1()"></i> 
+    	 <audio id="audioson1"  loop>
+
+        <source src="/Audio/Metronome - Xama 103 (ltr).wav ">
+        
+        
+        </audio>
+      </div> 
+      
+      <!-- Message -->
+      
+      <div id="PLH">
+      
+        <h1 class="ml11">
+          
+          <span class="letters2"> Peace, Love & Harmony</span>
+          
+        </h1>   
+      </div>  
+       
+
+    </div>
+
+    
+      
+  
+
+    <div id="col8" style="background-color: rgb(251, 176, 65)">
+      
+      <div class="iconemutemobil">
+        <i class="fas fa-volume-off" onclick="play2()"></i> 
+    	 <audio id="audioson2"  loop>
+
+        <source src="/Audio/Metronome - Xama 103 (ltr).wav ">
+        
+        
+        </audio>
+      </div>
+
+    </div>
+  </div>
+    
+<div class="containerx">
+
+  
+
+
+</div>
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+<script type ="text/javascript" src="app.js"></script>
+
+
+<script>
+
+  var audio1 = document.getElementById('audioson1');
+  
+  
+  //  function play1(){
+
+  //    audio1.muted = !audio1.muted;
+
+  //   }
+
+  function play1(){
+     
+ audio1.play();
+ 
+ audio1.muted=!audio1.muted;
+ 
+ }
+
+
+  
+  
+  
+  </script>   
+
+<script>
+
+  
+  var audio2 = document.getElementById('audioson2');
+    function play2(){
+   
+         
+ audio2.play();
+ 
+ audio2.muted=!audio2.muted;
+    
+  
+    }
+  
+  
+    </script> 
+
+
+  
+<script>
+
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml10 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml10 .letter',
+    rotateY: [-90, 0],
+    duration: 1300,
+    delay: (el, i) => 45 * i
+  }).add({
+    targets: '.ml10',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+<!-- <script>
+
+  // Wrap every letter in a span
+  var textWrapper = document.querySelector('.ml11 .letters2');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter2'>$&</span>");
+  
+  anime.timeline({loop: true})
+    .add({
+      targets: '.ml11 .letter2',
+      rotateY: [-90, 0], 
+      duration: 1300,
+      delay: (el, i) => 45 * i
+    }).add({
+      targets: '.ml11',
+      opacity: 0, 
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+    });
+  </script> -->
+ 
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Funkthetown</title>
+<link rel="shortcut icon" type="image/x-icon" href="2.ico" />
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2899T3YLFP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2899T3YLFP');
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style-marw.css" />
+<link rel="stylesheet" href="css/fonts.css" />
+<link rel="stylesheet" href="css/slicknav.css" />
+
+<style type="text/css">
+
+#my_popup
+{
+	width:1500px;
+	opacity:0.2;
+}
+
+@media screen and (max-width: 600px) {
+	#my_popup
+	{
+		width:300px;
+		opacity:0.2;
+	}
+	body
+	{
+	  background-size: 900%;
+	  
+	}
+}
+
+@media screen and (max-width: 800px) and  (min-width: 600px){
+	#my_popup
+	{
+		width:600px;
+		opacity:0.2;
+	}
+	body
+	{
+	  background-size: 400%;
+	  
+	}
+}
+@media screen and (max-width: 1000px) and  (min-width: 800px){
+	#my_popup
+	{
+		width:800px;
+		opacity:0.2;
+		
+	}
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/wptpa_style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="js/snap.svg.js"></script>
+<script src="js/wptpa_script.js"></script>
+<script src="js/playlists.js"></script>
+
+
+<script src="js/jquery.slicknav.min.js"></script>
+</head>
+
+<body>
+		
+	<!-- <img id="bg" alt="" src="images/COUVERTURE-PAGE-FACEBOOK-(rework-II).jpg" /> -->
+			
+	<div class="container">
+        <div class="menu-top">
+            <ul id="menu">
+                <li><a class="scroll" href="Funkthetown Events.html" target="_blank">events</a></li>
+                <li><a class="scroll" href="Funkthetown Music.html">music</a></li>
+                <li><a class="scroll" href="Funkthetown Clothes.html" target="_blank">clothes</a></li>
+                <li><a class="scroll" href="https://discord.gg/qdRW8cN" target="_blank" =>network</a></li>
+            </ul>
+        </div>
+        
+        <div class="clearer"></div>
+        <div class="menu-bottom">
+            <ul id="menu2">
+                <li><a class="scroll" href="Funkthetown Radio.html" target="_blank">radio</a></li>
+                <li><a class="scroll" href="Funkthetown Studio.html">studio</a></li>
+                <li><a class="scroll" href="Funkthetown Dream.html">dream</a></li>
+                <li><a class="scroll" href="#school">school</a></li>
+                <li><a class="scroll" href="#action">action</a></li>
+            </ul>
+        </div>
+     </div>
+       
+	<div class="container2">
+
+
+        <div id="profil">
+        <a href=""><img src="images/Marw/KIF_3081(rework2).jpg"></a>
+        <p> Marw </p>      
+
+        </div>
+
+          
+        <div id="bio"> 
+         <p> Pygmalion de Funkhetown, il décéda en 2012 et laissa derrière lui cet album
+            pure musique ainsi que de nombreuses productions. 
+            Sa musique est la reflexion de l'assimilation du Funk, du Jazz, de l'Electro, de la Techno, 
+            du Hip Hop, de la House et de la Soul. 
+            Il aimait nommé sa musique de l'electro spatial.          
+            </p>
+        </div> 
+      
+        <div class="container3">
+            <!-- <div id="playlist_01" class="wptpa_wrapper"></div> -->
+            <iframe style="border: 0; width: 400px; height: 208px;" src="https://bandcamp.com/EmbeddedPlayer/album=2129940685/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://funkthetown.bandcamp.com/album/maxi">Maxi by Marw</a></iframe>
+        </div> 
+    
+
+        <div class="container4">
+            <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=3305630156/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://funkthetown.bandcamp.com/album/pure-musique-lp">Pure Musique LP by Marw</a></iframe>
+        </div>
+        
+      
+    </div>
+  
+
+    
+</body>
+
+
+<script>
+  $("#playlist_01").tPlayer({
+      playlist: playlist_Marw,
+      showPlaylist: false,
+      playerBG:"rgb(101, 192, 64)",
+      playerTextCLR:"#fff",
+      buttonCLR:"rgb(252, 241, 63)",
+      buttonActiveCLR:"rgb(252, 241, 63)",
+      seekBarCLR:"#fff",
+      progressBarCLR:"rgb(252, 241, 63)",
+      timeCLR:"#000",
+      playlistBG: "rgb(101, 192, 64)",
+      playlistTextCLR: "#fff"
+
+    });
+    </script>
+
+
+<script>
+	var combinedMenu = $('#menu').clone();
+	var secondMenu = $('#menu2').clone();
+	
+	secondMenu.children('li').appendTo(combinedMenu);
+	
+	combinedMenu.slicknav({
+		duplicate:false
+	});
+	$(document).ready(function() {
+	
+    });
+
+
+
+
+
+</script>
+        
+
+
+	
+</html>
