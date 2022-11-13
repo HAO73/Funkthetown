@@ -1,4 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-Video/FUNKTHETOWN_PUB.mp4 filter=lfs diff=lfs merge=lfs -text
-Video/FUNKTHETOWN_PUB.mp4 filter=lfs diff=lfs merge=lfs -text
-Video/FUNKTHETOWN_PUB.mp4 filter=lfs diff=lfs merge=lfs -text
