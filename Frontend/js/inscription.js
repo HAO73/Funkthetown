@@ -38,7 +38,9 @@ formSignup.addEventListener('click', function (event) {
 
 
 
-    fetch("http://localhost:8080/api/signup", inscription)
+    // fetch("http://localhost:8080/api/signup", inscription)
+
+    fetch("http://funkthetown.net/api/signup", inscription)
         
         .then(function (response) {
             if (response.ok) {

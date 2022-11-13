@@ -48,7 +48,7 @@ server.on('listening', () => {
   console.log('Listening on ' + bind);
 });
 
-// server.listen(port);
+ server.listen(port);
 
 //  const httpsServer = https.createServer({
 //   key: fs.readFileSync('/etc/letsencrypt/live/www.funkthetown.net/privkey.pem'),
