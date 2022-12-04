@@ -12,7 +12,7 @@ formSignup.addEventListener('click', function (event) {
 
     let profil = {
 
-        email: email,
+        email: email
         
 
     };
@@ -26,7 +26,7 @@ formSignup.addEventListener('click', function (event) {
         method: 'POST',
         headers: {
 
-            'Content-Type': 'application/json'
+            'content-type': 'application/json'
 
         },
 
@@ -36,11 +36,11 @@ formSignup.addEventListener('click', function (event) {
 
     };
 
+    console.log(inscription)
 
+    //  fetch("http://localhost:8080/api/signup", inscription)
 
-    // fetch("http://localhost:8080/api/signup", inscription)
-
-    fetch("http://funkthetown.net/api/signup", inscription)
+      fetch("https://funkthetown.net/api/signup", inscription)
         
         .then(function (response) {
             if (response.ok) {
