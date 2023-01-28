@@ -14,7 +14,7 @@
   
   height: 6em;
  
-
+  
 }
 
 #col3{
@@ -89,8 +89,8 @@ body {
   min-height: 100%;
   margin:0;
 
-  overflow-x:hidden;
-	overflow-y:hidden;
+
+	
   border: 1px solid black;
 }
 
@@ -155,13 +155,13 @@ body {
   height: 80%;
 	top: 10%;
 	left: 10%;
-	opacity:0.7;
+	opacity:0.9;
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
 	-ms-transition: all 500ms ease-in-out;
 	-o-transition: all 500ms ease-in-out;
 	transition: all 500ms ease-in-out;
-  
+ 
 	
 }
 .logo-img:hover
@@ -253,7 +253,7 @@ font-weight: bold;
 
 
 
-button {
+#emailSend {
 
  
   background-color: WHITE;
@@ -305,6 +305,34 @@ button:hover {
 
   color:rgba(90, 74, 66);
   display:none;
+
+}
+
+
+.connectionButton{
+
+display: block;
+position: relative;
+left: 2rem;
+
+
+
+}
+
+#Connection {
+
+  background-color: WHITE;
+  font-family: 'Arial Rounded MT Bold Regular'; 
+  width:20%;
+  height:6rem;
+  border:none;
+  font-size:2rem;
+  font-weight:bold;
+  color:rgb(251, 176, 65);
+  border-radius:50px;
+  cursor:pointer;
+  
+
 
 }
 
@@ -407,8 +435,8 @@ button:hover {
 
   .ml10{
 
-    font-size: 1.3rem;
-    top:13rem;
+    font-size: rem;
+    top:18rem;
   }
 
 
@@ -602,10 +630,4 @@ button:hover {
 }
 
 
-
-
-
-
-
-
-} 
+}}

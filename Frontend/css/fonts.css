@@ -158,3 +158,13 @@ font-style: normal;
 font-weight: normal;
 src: local('Arial Rounded MT ExtraBold'), url('ARIALROUNDEDMTEXTRABOLD.woff') format('woff');
 }
+
+@font-face {
+
+    font-family: 'Collective';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Collective'), url('collecro.woff') format('woff');
+
+
+}

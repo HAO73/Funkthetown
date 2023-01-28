@@ -6,56 +6,56 @@ var playlist_Marw = [
 	"artist": "Marw",
 	"title": "MartinOne",
 	"audio": "https://funkthetown.net/Audio/Marw/Marw-MartinOne.wav",
-	"cover": "https://funkthetown.net/images/RIMG0007.JPG",
+	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
 	"dwn": "https://funkthetown.net/Audio/Marw/Marw-MartinOne.wav"
 },
 
-{
-	"type": "audio",
-	"artist": "Marw",
-	"title": "Enjoy",
-	"audio": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav",
-	"cover": "https://funkthetown.net/images/Marw/MACARON_ENJOY_FTTR01(small).jpg",
-	"dwn": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav"
-},
+ {
+ 	"type": "audio",
+ 	"artist": "Marw",
+ 	"title": "Enjoy",
+ 	"audio": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav",
+ 	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
+ 	"dwn": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav"
+ },
 
 
-{
-	"type": "audio",
-	"artist": "Marw",
-	"title": "Love is it (Ring Tone)",
-	"audio": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav",
-	"cover": "https://funkthetown.net/images/RIMG0007.JPG",
-	"dwn": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav"
-},
+// {
+// 	"type": "audio",
+// 	"artist": "Marw",
+// 	"title": "Love is it (Ring Tone)",
+// 	"audio": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav",
+// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
+// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav"
+// },
 
-{
-	"type": "audio",
-	"artist": "Marw",
-	"title": "Utterance",
-	"audio": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav",
-	"cover": "https://funkthetown.net/images/RIMG0007.JPG",
-	"dwn": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav"
-},
+// {
+// 	"type": "audio",
+// 	"artist": "Marw",
+// 	"title": "Utterance",
+// 	"audio": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav",
+// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
+// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav"
+// },
 
 
-{
-	"type": "audio",
-	"artist": "Marw",
-	"title": "SunTimes",
-	"audio": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav",
-	"cover": "https://funkthetown.net/images/RIMG0007.JPG",
-	"dwn": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav"
-},
+// {
+// 	"type": "audio",
+// 	"artist": "Marw",
+// 	"title": "SunTimes",
+// 	"audio": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav",
+// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.JPG",
+// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav"
+// },
 
-{
-"type": "audio",
-"artist": "Marw",
-"title": "4 My People",
-"audio": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav",
-"cover": "https://funkthetown.net/images/RIMG0007.JPG",
-"dwn": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav"
-},
+// {
+// "type": "audio",
+// "artist": "Marw",
+// "title": "4 My People",
+// "audio": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav",
+// "cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
+// "dwn": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav"
+// },
 
 
 

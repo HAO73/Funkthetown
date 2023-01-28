@@ -14,7 +14,7 @@
     font-size: 4.61em;
     text-align: justify;
     margin: auto;
-    color:white;
+    color:rgba (45,50,95);
     position: relative;
     z-index: 3;
     top:3.5em;
@@ -117,7 +117,7 @@ body
   background-position:center center;
   height:100%;
   overflow-y:hidden;
-  background-color:rgb(252,241,53);
+  background-color:rgb(95,45,85);
 }
 /* reset */
 html, body, div, span, applet, object, iframe,
@@ -206,7 +206,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  line-height: 80px;
  color:#fff;
  display:block;
- background-color: rgba(251, 176, 65, 0.3);
+ background-color: rgba(25, 18, 45, 0.6);
  -webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
 	-ms-transition: all 500ms ease-in-out;
@@ -239,7 +239,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .menu-top li:nth-child(even) a:hover,
 .menu-bottom li:nth-child(even) a:hover
 {
-	background-color: rgba(90, 74, 66, 0.6);
+	background-color: rgba(1,5,8, 0.7);
 }
 
 

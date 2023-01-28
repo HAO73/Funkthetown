@@ -1,0 +1,827 @@
+
+body {
+
+
+background-color:#3584ff;
+display: flex;
+flex-direction: column;
+
+}
+
+video {
+
+height: auto;
+width: 100%;
+
+
+}
+
+.sloganDiv{
+
+order:1;
+height:1080 ;
+
+}
+
+.slogan {
+
+color: white;
+font-weight: 400;
+text-justify: auto;
+margin-left: 5rem;
+margin-top: 2.5rem;
+
+
+}
+
+p {
+
+font-family: 'Collective';
+font-size: 138px;
+color:#3584ff;
+
+}
+
+
+
+
+
+.NewsLetterField {
+
+    background-color:rgb(251, 176, 65);
+    height: 1080px;
+    order:3;
+    position: relative;
+    top:-220px;
+    z-index: 3;
+    margin: 3rem;
+    padding-left: 2rem;
+    border-radius: 60px;
+
+}
+
+.newslettersdesktop {
+
+
+    display:flex;
+    margin-left: 3rem;
+    align-items: center;
+    margin-top: 12rem;
+    
+
+  }
+
+ .explain {
+
+    padding-top: 10rem;
+ }
+
+
+  input{
+    font-family: 'Collective'; 
+    background-color: rgba(90, 74, 66);
+    
+       
+    
+    font-size: 1rem;
+    color:White;
+    border-style:groove;
+    font-weight: bold;
+    margin-left: 7.5rem;
+    margin-right: 12rem;
+    border-radius: 2rem;
+  }  
+  
+
+
+
+  ::placeholder {
+
+    color:White;
+    padding: auto;
+
+  }
+
+  #email{
+
+    width:50rem;
+    height:6rem;
+    font-size:4rem;
+
+  }
+
+  #emailSend {
+  
+   
+    background-color: rgba(90, 74, 66);
+    font-family: 'Collective'; 
+    width: 15rem;
+    height:6rem;
+    border:none;
+    font-size:4rem;
+    font-weight:bold;
+    color:White;
+    border-radius: 2rem;
+    margin-left: 6rem;
+    
+  
+    
+    
+  }
+  
+  button:focus {
+    
+    outline:none;
+  
+  }
+   
+  #emailSend:hover {
+  
+    transform:scale(1.1);
+    background-color: #fbb041;
+  
+  
+  }
+
+
+.iconemutedesktop{
+
+color: black;
+
+
+}
+
+  i{
+
+ 
+    background-color: aliceblue;
+    color: aquamarine;
+    font-size:15rem;
+    /* top:79%;
+    left: 5%; */
+    cursor: pointer;
+    
+   
+   
+    
+    
+  } 
+
+  #logo{
+
+    text-align: center;
+    background-color: #3584ff;
+    width: 100%;
+    order:2;
+    height:300px;
+    cursor:pointer;
+    
+
+  }
+
+  img:hover{
+
+  transform: scale(1.1);
+  z-index: 6;
+  
+
+
+  }
+
+  img{
+
+    
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top:-220px;
+    z-index: 5;
+    left: 300px;
+  }
+
+
+/* .network {
+
+
+    background-color: #8A50C8;
+    height: 540px;
+
+
+} */
+
+@media (min-width: 1950px) {
+
+
+
+  body {
+    overflow-x: hidden;
+    
+
+
+    background-color:#3584ff;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    video {
+    
+    height: auto;
+    width: 100%;
+    
+    
+    }
+    
+    .sloganDiv{
+    
+    order:1;
+    height:1000px ;
+    
+    }
+    
+    .slogan {
+    
+    color: white;
+    font-weight: 400;
+    
+    }
+    
+    p {
+    
+    font-family: 'Collective';
+    font-size: 138px;
+    color:#3584ff;
+    
+    }
+    
+    
+    
+    
+    
+    .NewsLetterField {
+    
+        background-color:rgb(251, 176, 65);
+        height: 1080px;
+        order:3;
+        position: relative;
+        top:-220px;
+        z-index: 3;
+        margin: 3rem;
+        padding-left: 2rem;
+        border-radius: 60px;
+        
+    
+    }
+    
+    .newslettersdesktop {
+    
+    
+        display:flex;
+        margin-left: 25rem;
+        align-items: center;
+        margin-top: 25rem;
+        
+    
+      }
+    
+     .explain {
+    
+        padding-top: 10rem;
+     }
+    
+    
+      input{
+        font-family: 'Collective'; 
+        background-color: rgba(90, 74, 66);
+        
+           
+        
+        font-size: 1rem;
+        color:White;
+        border-style:groove;
+        font-weight: bold;
+        margin-left: 7.5rem;
+        margin-right: 12rem;
+        border-radius: 2rem;
+      }  
+      
+    
+    
+    
+      ::placeholder {
+    
+        color:White;
+        padding: auto;
+    
+      }
+    
+      #email{
+    
+        width:50rem;
+        height:8rem;
+        font-size:4rem;
+    
+      }
+    
+      #emailSend {
+      
+       
+        background-color: rgba(90, 74, 66);
+        font-family: 'Collective'; 
+        width: 15rem;
+        height:8rem;
+        border:none;
+        font-size:4rem;
+        font-weight:bold;
+        color:White;
+        border-radius: 2rem;
+        margin-left: 6rem;
+        
+      
+        
+        
+      }
+      
+      button:focus {
+        
+        outline:none;
+      
+      }
+       
+      #emailSend:hover {
+      
+        transform:scale(1.02);
+        background-color: #fbb041;
+      
+      
+      }
+    
+    
+    .iconemutedesktop{
+    
+    color: black;
+    
+    
+    }
+    
+      i{
+    
+     
+        background-color: aliceblue;
+        color: aquamarine;
+        font-size:15rem;
+        /* top:79%;
+        left: 5%; */
+        cursor: pointer;
+        
+       
+       
+        
+        
+      } 
+    
+      #logo{
+    
+        text-align: center;
+        background-color: #3584ff;
+        width: 100%;
+        order:2;
+        height:300px;
+        
+    
+      }
+    
+      img{
+    
+        
+        width: 700px;
+        height: 700px;
+        position: relative;
+        top:-350px;
+        z-index: 5;
+        left: 300px;
+      }
+    
+    
+    /* .network {
+    
+    
+        background-color: #8A50C8;
+        height: 540px;
+    
+    
+    } */
+
+
+}
+
+
+
+
+@media (max-width: 1450px){
+
+	
+  body {
+
+    overflow-x: hidden;
+    
+
+
+
+  }
+
+
+  p{
+
+    font-size: 100px;
+
+
+  }
+  
+
+  video {
+
+    width: 100%    !important;
+    height: auto   !important;
+    object-fit:cover;
+    order:2;
+    
+  }    
+
+
+  .sloganDiv{
+
+   width: 1440px;
+  order:1;
+  text-align: left;
+
+  
+
+  }
+
+  .explain{
+
+
+
+
+  }
+
+  .NewsLetterField {
+
+    background-color:rgb(251, 176, 65);
+    height: 1000px;
+    width: 1200px;
+    border-radius: 16px;
+    position: relative;
+    top:-150px;
+
+
+}
+
+input{
+
+  margin-left: -6rem;
+ 
+  margin-right: 0rem;
+  
+  margin-top: 0rem;
+ 
+}
+
+#email {
+
+
+font-size: 4rem;
+width:600px;
+
+
+}
+
+::placeholder {
+
+  color:White;
+  padding: auto;
+  font-size: 4rem;
+
+}
+
+
+  .newslettersdesktop {
+
+    display: block;
+    align-items:center ;
+    text-align: center; 
+    border-radius: 16px;
+    margin-top: 20rem;
+    margin-left: 10rem;
+
+    
+
+  }
+
+  #emailSend{
+
+    position: relative;
+   
+    
+
+  }
+
+  #logo{
+
+    text-align: center;
+    background-color: #3584ff;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  img{
+
+    position: relative;
+   top:-180px;
+    width: 550px;
+    height: 550px;
+    opacity: 0.98;
+    left:0px
+  }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+
+    overflow-x: hidden;
+  
+
+
+
+  }
+
+
+  p{
+
+    font-size: 65px;
+
+
+  }
+  
+
+  video {
+
+    width: 100%    !important;
+    height: auto   !important;
+    object-fit:cover;
+    order:2;
+    
+  }    
+
+
+  .sloganDiv{
+
+  width: 768px;
+  order:1;
+  text-align: left;
+
+  
+
+  }
+
+  .slogan{
+
+    margin-left: 1rem;
+
+
+  }
+
+  .explain{
+
+
+
+
+  }
+
+  .NewsLetterField {
+
+    background-color:rgb(251, 176, 65);
+    height: 800px;
+    width: 500px;
+    border-radius: 16px;
+    position: relative;
+    top:-150px;
+
+
+}
+
+input{
+
+  margin-left: -6rem;
+ 
+  margin-right: 0rem;
+  margin-bottom: 0px;
+  margin-top: 0rem;
+}
+
+#email {
+
+
+font-size: 1rem;
+width:600px;
+margin-bottom: 0px;
+
+}
+
+::placeholder {
+
+  color:White;
+  
+  font-size: 3.5rem;
+
+}
+
+
+  .newslettersdesktop {
+
+  
+    border-radius: 16px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+
+    
+
+  }
+
+  #emailSend{
+
+    position: relative;
+    top:1rem;
+    
+
+  }
+
+  #logo{
+
+    text-align: center;
+    background-color: #3584ff;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  img{
+
+    position: relative;
+   top:-50px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.98;
+    left:0px;
+    margin-left:150px;
+
+  }
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) and (orientation: portrait) {
+  
+
+
+  body {
+
+    overflow-x: hidden;
+    
+
+  }
+
+
+  p{
+
+    font-size: 35px;
+
+
+  }
+  
+  .slogan {
+
+font-size: 35px;
+margin-left: 1rem;
+margin-top: 1rem;
+
+  }
+
+  video {
+
+    width: 100%    !important;
+    height: auto   !important;
+    object-fit:cover;
+    order:2;
+    
+  }    
+
+
+  .sloganDiv{
+
+  margin-top: 0rem;  
+  order:1;
+  width:350px;
+  
+  margin-bottom: -2rem;
+
+  }
+
+  .explain{
+
+
+
+
+  }
+
+  .NewsLetterField {
+
+    background-color:rgb(251, 176, 65);
+    height: 500px;
+    width: 300px;
+    border-radius: 16px;
+    position: relative;
+    top:-150px;
+    
+
+}
+
+.newslettersdesktop {
+
+  display: block;
+ 
+  
+  border-radius: 16px;
+  margin-top: 0rem;
+  margin-left: 0rem;
+
+}
+
+input{
+
+  margin-left: -5rem;
+  
+  margin-right: 0rem;
+  margin-bottom: 2rem; 
+  margin-top: 0rem;
+}
+
+#email {
+
+
+font-size: 35px;
+width:350px;
+height: 70px;
+margin-top: 0rem;
+
+
+}
+
+::placeholder {
+
+  color:White;
+  padding: auto;
+  font-size: 2.5rem;
+
+}
+
+
+
+
+  #emailSend{
+
+    margin-left: -2rem;
+    margin-top: 1rem;
+    height:5rem;
+    font-size: 35px;
+
+  }
+
+  #logo{
+
+    text-align: center;
+    background-color: #3584ff;
+    width: 100%;
+    border-radius: 16px;
+  }
+
+  img{
+
+    position: relative;
+   top:25px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.98;
+    left:0px;
+    margin-left:50px;
+  }
+
+}

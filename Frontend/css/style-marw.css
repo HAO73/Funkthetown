@@ -53,25 +53,32 @@
 
 #bg {
   position: fixed; 
-  top: 0; 
-  left: 0; 
+  
+  width:100%;
 
   /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+  /* min-width: 100%;
+  min-height: 100%; */
+  margin:auto;
 }
 body
 {
   
-  background: url(../images/) no-repeat center center fixed; 
-  -webkit-background-size: cover;
+   background: url(../images/MARW/MARW_Enjoy_FINAL.jpg) no-repeat fixed ; 
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position:center center;
-  height:100%;
-  overflow-y:hidden;
-  background-color: rgb(101, 192, 64);	
+  background-position:center center; */
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100% 100%;
+ 
+  
+  align-items: center;
+  text-align: center;
+  background-color: black;
 }
 /* reset */
 html, body, div, span, applet, object, iframe,
@@ -232,13 +239,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .container2 {
 
-position: absolute;
-display: flex;
-margin:auto;
 
-top: 15%;
-align-items: center;
-left:8%;
+	
+	
+		
+
+
 
 
 
@@ -257,7 +263,7 @@ left:8%;
 
 }
 
-#profil img {
+/* #profil img {
 	width:25rem;
 	height: 25rem;
 	border-radius: 50%;
@@ -267,14 +273,14 @@ left:8%;
 	
 
 
-}
+} */
 
-#profil p {
+/* #profil p {
 
 	font-size: 2.8rem;
 
 
-}
+} */
 
 
 
@@ -283,11 +289,13 @@ left:8%;
 	margin: auto;
 	border:15px black;
 	align-items: center;
+	color: black;
+
 }
 
 p{
 
-	color:white;
+	
 	font-family: 'Arial Rounded MT Bold Regular';   
 	font-size: 2.2rem;
 	margin: auto;
@@ -307,13 +315,13 @@ img {
 
 }
 
-/* #playlist_01 {
+#playlist_01 {
 
-	margin-top: 30%;
+margin-top: 25%;
 
 
 
-} */
+}
 
 .container3 {
 
@@ -369,9 +377,9 @@ img {
 	
 	body{
 
+		background: none;
 		overflow-y: visible;
-
-
+	background-color: rgba(232,11,192);
 	}
 
 	html{
@@ -386,73 +394,36 @@ img {
 
 	.container2 {
 
-		position: absolute;
-		display:flex;
-		flex-direction:column;
-		margin:2rem;
-		justify-content:space-between;
-		top: 0%;
-		align-items: center;
-				
+		
+		
+	
+		
+		
+		
+			
 		
 		
 		}
 
 
+    #playlist_01 {
 
-
-	
-
-	#profil{
-
-		margin-top: 7rem;
-		text-align:center;
-		
-
-	}
-
-
-	#profil img {
-	
-		border-radius:50%;
-		width: 85%;
+		margin-top: 15%;
 		
 		
-		
-		
-		
-	
-	
-	}
-
-	#bio {
-
-		margin-top:-2rem;
-		text-align:center;
-		margin-bottom: 2rem;
-		
+	      
 
 
 	}
 
-	p{
+	#textMarw {
 
-		font-size: 2.8rem;
-
-
-	}
-
-	.container3{
-
-		margin-top: 0%;
-		text-align: center;
-		/* width: 70%;
-		height:10%; */
+		display: none;
+		width: 100%;
 		
 
 
-	}	
-
+	}
 
 
 

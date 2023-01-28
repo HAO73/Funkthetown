@@ -2,6 +2,9 @@
 
 const formSignup = document.getElementById('emailSend');
 
+
+
+
 formSignup.addEventListener('click', function (event) {
 
     event.preventDefault();
@@ -38,13 +41,13 @@ formSignup.addEventListener('click', function (event) {
 
     console.log(inscription)
 
-    //  fetch("http://localhost:8080/api/signup", inscription)
+     fetch("http://localhost:80/api/signup", inscription)
 
-      fetch("https://funkthetown.net/api/signup", inscription)
+    //   fetch("https://funkthetown.net/api/signup", inscription)
         
         .then(function (response) {
             if (response.ok) {
-                window.location.href = "Funkthetown_Sub_Conf.html"
+                window.location.href = "index.html"
             }
 
             return response.json();
