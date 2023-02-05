@@ -14,7 +14,7 @@ const port = parseInt(val, 10);
   }
   return false;
 };
-const port = normalizePort(process.env.PORT || '80');
+const port = normalizePort(process.env.PORT ||'80');
 app.set('port', port);
 
 

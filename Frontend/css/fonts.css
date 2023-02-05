@@ -121,34 +121,34 @@ src: local('ArialMT Regular'), url('arialmt.woff') format('woff');
 
 
 @font-face {
-font-family: 'Arial MT Black Regular';
+font-family: '7TH';
 font-style: normal;
 font-weight: normal;
-src: local('Arial MT Black Regular'), url('ARIALMTBLACK.woff') format('woff');
+src: local('7TH'), url('AnyConv.com__7TH.woff') format('woff');
 }
 
 
 @font-face {
-font-family: 'Arial Rounded MT Light';
+font-family: 'Frutiger LT 95 Ultra Black';
 font-style: normal;
 font-weight: normal;
-src: local('Arial Rounded MT Light'), url('ARIALROUNDEDMTLIGHT.woff') format('woff');
+src: local('Frutiger LT 95 Ultra Black'), url('AnyConv.com__Frutiger LT 95 Ultra Black.woff') format('woff');
 }
 
 
 @font-face {
-font-family: 'Arial MT Narrow Bold';
+font-family: 'Univers LT 93 Extra Black Extended';
 font-style: normal;
 font-weight: normal;
-src: local('Arial MT Narrow Bold'), url('ARIALMTNARROWBOLD.woff') format('woff');
+src: local('Univers LT 93 Extra Black Extended'), url('AnyConv.com__Univers LT 93 Extra Black Extended.woff') format('woff');
 }
 
 
 @font-face {
-font-family: 'Arial MT Narrow Bold Italic';
+font-family: 'Helvetica LT 95 Black';
 font-style: normal;
 font-weight: normal;
-src: local('Arial MT Narrow Bold Italic'), url('ARIALMTNARROWBOLDITALIC.woff') format('woff');
+src: local('Helvetica LT 95 Black'), url('AnyConv.com__Helvetica LT 95 Black.woff') format('woff');
 }
 
 

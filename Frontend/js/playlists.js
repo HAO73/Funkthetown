@@ -4,56 +4,57 @@ var playlist_Marw = [
 {
 	"type": "audio",
 	"artist": "Marw",
-	"title": "MartinOne",
-	"audio": "https://funkthetown.net/Audio/Marw/Marw-MartinOne.wav",
+	"title": "Enjoy (Strato Mix)",
+	"audio": "https://funkthetown.net/Audio/Marw/Enjoy_Mix_Strato.wav",
 	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
-	"dwn": "https://funkthetown.net/Audio/Marw/Marw-MartinOne.wav"
+	"dwn": "https://funkthetown.net/Audio/Marw/Enjoy_Mix_Strato.wav"
+},
+
+{
+	"type": "audio",
+	"artist": "Marw",
+	"title": "We Dance, We Love, We Groove (Cut Edit)",
+	"audio": "https://funkthetown.net/Audio/Marw/Marw_-_We_Dance,_We Love,_We Groove_mastered.wav",
+	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
+   "dwn": "https://funkthetown.net/Audio/Marw/Marw_-_We_Dance,_We Love,_We Groove_mastered.wav"
 },
 
  {
  	"type": "audio",
  	"artist": "Marw",
- 	"title": "Enjoy",
+ 	"title": "Enjoy (Instru Mix)",
  	"audio": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav",
  	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
  	"dwn": "https://funkthetown.net/Audio/Marw/Marw-Enjoy.wav"
  },
 
 
-// {
-// 	"type": "audio",
-// 	"artist": "Marw",
-// 	"title": "Love is it (Ring Tone)",
-// 	"audio": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav",
-// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
-// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw-love_is_It.wav"
-// },
-
-// {
-// 	"type": "audio",
-// 	"artist": "Marw",
-// 	"title": "Utterance",
-// 	"audio": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav",
-// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
-// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw - utterance.wav"
-// },
+ {
+ 	"type": "audio",
+ 	"artist": "Marw",
+ 	"title": "Enjoy (ButterFly Mix)",
+ 	"audio": "https://funkthetown.net/Audio/Marw/Enjoy_(ButterFly_Mix).wav",
+ 	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
+ 	"dwn": "https://funkthetown.net/Audio/Marw/Enjoy_(ButterFly_Mix).wav"
+ },
 
 
-// {
-// 	"type": "audio",
-// 	"artist": "Marw",
-// 	"title": "SunTimes",
-// 	"audio": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav",
-// 	"cover": "https://funkthetown.net/images/MARW_Enjoy.JPG",
-// 	"dwn": "https://funkthetown.net/Audio/Marw/Marw - sUNtIMES.wav"
-// },
+
+ {
+	"type": "audio",
+ 	"artist": "Marw",
+	"title": "We Dance, We Love, We Groove (Electro Mix)",
+ 	"audio": "https://funkthetown.net/Audio/Marw/We Dance, We Love, We Groove (Electro Mix).wav",
+ 	"cover": "https://funkthetown.net/images/Marw/MARW_Enjoy_FINAL.jpg",
+ 	"dwn": "https://funkthetown.net/Audio/Marw/We Dance, We Love, We Groove (Electro Mix).wav"
+ },
 
 // {
 // "type": "audio",
 // "artist": "Marw",
 // "title": "4 My People",
 // "audio": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav",
-// "cover": "https://funkthetown.net/images/MARW_Enjoy.jpg",
+// "cover": "https://funkthetown.net/images/MARW_Enjoy_FINAL.jpg",
 // "dwn": "https://funkthetown.net/Audio/Marw/Marw - 4MyPeople.wav"
 // },
 
